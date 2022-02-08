@@ -1,0 +1,38 @@
+.bg-nkclinic { background-color: #ebddd0 !important; }
+.bg-nkclinic-dark { background-color: #847773 !important; }
+.bg-nkclinic-light { background-color: #feccbe !important; }
+.bg-nkclinic-content { background-color: #efe7df !important; }
+
+.text-nkclinic { color: #847773 !important; }
+.text-nkclinic-light { color: #d3b3a8 !important; }
+.text-nkclinic-dark { color: #847773 !important; }
+
+.btn-nkclinic { background-color: #847773 !important; color: #fff !important; }
+
+.border-nkclinic { border-color: #847773 !important; }
+
+.font-malgun-gothic { font-family: '맑은 고딕', serif; }
+.font-nanum-myeongjo { font-family: 'Nanum Myeongjo', serif; font-weight: 400; }
+.font-nanum-myeongjo-400 { font-family: 'Nanum Myeongjo', serif; font-weight: 400; }
+.font-nanum-myeongjo-700 { font-family: 'Nanum Myeongjo', serif; font-weight: 700; }
+.font-nanum-myeongjo-800 { font-family: 'Nanum Myeongjo', serif; font-weight: 800; }
+
+.white-space-pre-line { white-space: pre-line; }
+
+.accordion-button::after {
+  background-image: none !important;
+  font-family: "Font Awesome 6 Free" !important;
+  color: #d3b3a8 !important;
+  font-weight: 900 !important;
+  content: '\f107'; text-align: center;
+}
+.accordion-button-icon { display: flex; justify-content: center; align-items: center; }
+.accordion-button-icon::before { content: ''; display: block; width: 2rem; height: 2rem; background-image: url('../images/icon.svg'); background-size: contain; margin-right: 0.3rem; }
+.accordion-button-icon::after {
+  background-image: none;
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: '\f0d7'; 
+}
+
+#brand { display: flex; flex-direction: column; justify-content: center; align-items: center; }
