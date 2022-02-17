@@ -21,7 +21,7 @@
     {{#each items}}
     <div class="accordion-item">
       <h2 class="accordion-header" id="h{{cyrb53 title}}">
-        <button class="accordion-button accordion-button-icon fw-bold text-nkclinic-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#b{{cyrb53 title}}" aria-expanded="false" aria-controls="h{{cyrb53 title}}">
+        <button class="accordion-button accordion-button-icon fw-bold text-nkclinic-dark collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#b{{cyrb53 title}}" aria-expanded="false" aria-controls="h{{cyrb53 title}}">
           {{ title }}
         </button>
       </h2>
@@ -30,8 +30,8 @@
           {{#each items}}
           <div class="accordion-item">
             <h2 class="accordion-header" id="h{{cyrb53 ../title}}-{{cyrb53 title}}">
-              <button class="accordion-button text-nkclinic-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#b{{cyrb53 ../title}}-{{cyrb53 title}}" aria-expanded="false" aria-controls="h{{cyrb53 ../title}}-{{cyrb53 title}}">
-                <span class="fa-stack text-nkclinic-light">
+              <button class="accordion-button text-nkclinic-dark collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#b{{cyrb53 ../title}}-{{cyrb53 title}}" aria-expanded="false" aria-controls="h{{cyrb53 ../title}}-{{cyrb53 title}}">
+                <span class="fa-stack text-nkclinic-dark">
                   <i class="far fa-circle fa-stack-1x"></i>
                   <span class="fa-stack-1x" style="font-size:0.7rem;">{{inc @index}}</span>
                 </span>

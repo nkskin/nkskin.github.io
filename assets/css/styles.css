@@ -1,15 +1,19 @@
 .bg-nkclinic { background-color: #ebddd0 !important; }
-.bg-nkclinic-dark { background-color: #847773 !important; }
+.bg-nkclinic-dark { background-color: #46423e !important; }
 .bg-nkclinic-light { background-color: #feccbe !important; }
 .bg-nkclinic-content { background-color: #efe7df !important; }
 
 .text-nkclinic { color: #847773 !important; }
-.text-nkclinic-light { color: #d3b3a8 !important; }
-.text-nkclinic-dark { color: #847773 !important; }
+.text-nkclinic-light,
+.text-nkclinic-light::after,
+.text-nkclinic-light::before { color: #d3b3a8 !important; }
+.text-nkclinic-dark,
+.text-nkclinic-dark::after,
+.text-nkclinic-dark::before { color: #46423e !important; }
 
 .btn-nkclinic { background-color: #847773 !important; color: #fff !important; }
 
-.border-nkclinic { border-color: #847773 !important; }
+.border-nkclinic { border-color: #46423E !important; }
 
 .font-malgun-gothic { font-family: '맑은 고딕', serif; }
 .font-nanum-myeongjo { font-family: 'Nanum Myeongjo', serif; font-weight: 400; }
@@ -22,13 +26,13 @@
 .accordion-button::after {
   background-image: none !important;
   font-family: "Font Awesome 6 Free" !important;
-  color: #d3b3a8 !important;
   font-weight: 900 !important;
   content: '\f107'; text-align: center;
 }
-.accordion-button-icon { display: flex; justify-content: center; align-items: center; }
+.accordion-button-icon { display: flex; justify-content: center; align-items: center; font-size: 1.3rem; }
 .accordion-button-icon::before { content: ''; display: block; width: 2rem; height: 2rem; background-image: url('../images/icon.svg'); background-size: contain; margin-right: 0.3rem; }
 .accordion-button-icon::after {
+  font-size: 1.3rem;
   background-image: none;
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
@@ -36,3 +40,6 @@
 }
 
 #brand { display: flex; flex-direction: column; justify-content: center; align-items: center; }
+
+.accordion-button:focus { border-color: inherit !important; box-shadow: inherit !important; }
+.accordion-button:not(.collapsed) { background-color: inherit !important; }
