@@ -29,10 +29,10 @@
   font-weight: 900 !important;
   content: '\f107'; text-align: center;
 }
-.accordion-button-icon { display: flex; justify-content: center; align-items: center; font-size: 1.3rem; }
+.accordion-button-icon { display: flex; justify-content: center; align-items: center; font-size: 1.2rem; }
 .accordion-button-icon::before { content: ''; display: block; width: 2rem; height: 2rem; background-image: url('../images/icon.svg'); background-size: contain; margin-right: 0.3rem; }
 .accordion-button-icon::after {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   background-image: none;
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
